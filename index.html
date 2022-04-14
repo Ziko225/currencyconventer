@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">`~
+    <title>Kalkulator walut</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3719/3719350.png" type="image/gif" sizes="16x16">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="kantor.js"> </script>
+</head>
+
+<body class="body">
+    <main class="main">
+        <article class="article">
+            <h1 class="article__h1">Kalkulator walutowy</h1>
+            <form class="article__form">
+                <p>
+                    <label>
+                        <input placeholder="Wpisz kwotę" type="number" class="form__input js-inputA">
+                        <select class="form__select js-type1" name="kantor">
+                            <option value="1">PLN</option>
+                            <option value="4.27">USD</option>
+                            <option value="4.65">EUR</option>
+                            <option value="0.19">CZK</option>
+                            <option value="5.57">GBP</option>
+                            <option value="4.59">CHF</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input disabled class="form__input result">
+                        <select class="form__select form__select--type2 js-type2" name="kantor">
+                            <option value="4.27">USD</option>
+                            <option value="4.65">EUR</option>
+                            <option value="0.19">CZK</option>
+                            <option value="5.57">GBP</option>
+                            <option value="4.59">CHF</option>
+                            <option value="1">PLN</option>
+                        </select>
+                    </label>
+                </p>
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
