@@ -8,7 +8,7 @@ html {
 }
 
 .body {
-    background-image: url(money.jpg);
+    background-image: IMG/url(money.jpg);
     background-size: cover 100%;
     background-repeat: no-repeat;
     background-attachment: scroll ;
