@@ -8,14 +8,14 @@ html {
 }
 
 .body {
-    background-image: IMG/url(money.jpg);
+    background-image: img/url(money.jpg);
     background-size: cover 100%;
     background-repeat: no-repeat;
     background-attachment: scroll ;
 }
 
 .article {
-    background-image: url(fon.png);
+    background-image: img/url(fon.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 10px auto 10px auto;
