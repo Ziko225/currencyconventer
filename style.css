@@ -41,10 +41,11 @@ html {
 }
 
 .form__select {
-    background-color:white;
+    background-color: white;
     vertical-align: middle;
-    border-width: 0.2px;    
-    height: calc(100% + 3px);;
+    border-width: 0.2px;
+    height: calc(100% + 3px);
+    ;
     margin-left: -5px;
     border-radius: 2px 20px 20px 2px;
 }
@@ -60,4 +61,15 @@ html {
 .form__input:disabled {
     background-color: #ddd;
     color: black;
+}
+
+.footer {
+    font-size: smaller;
+    background-color: #222;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
