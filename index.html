@@ -15,12 +15,14 @@
 <body class="body">
     <main class="main">
         <article class="article">
-            <h1 class="article__h1">Kalkulator walutowy</h1>
+            <h1 class="article__header">Kalkulator walutowy</h1>
             <form class="article__form">
-                <p>
+                <p class="form__paragraf">
                     <label>
-                        <input placeholder="Wpisz kwotę" type="number" class="form__input js-inputA">
-                        <select class="form__select js-type1" name="kantor">
+                        <input placeholder="Wpisz kwotę" min="0" type="number" class="form__input js-input">
+                    </label>
+                    <label>
+                        <select class="form__select js-selectFrom" name="kantor">
                             <option value="1">PLN</option>
                             <option value="4.27">USD</option>
                             <option value="4.65">EUR</option>
@@ -30,10 +32,12 @@
                         </select>
                     </label>
                 </p>
-                <p>
+                <p class="form__paragraf">
                     <label>
-                        <input disabled class="form__input result">
-                        <select class="form__select form__select--type2 js-type2" name="kantor">
+                        <input disabled class="form__input js-result">
+                    </label>
+                    <label>
+                        <select class="form__select form__select--backgroundColorGrey js-selectTo" name="kantor">
                             <option value="4.27">USD</option>
                             <option value="4.65">EUR</option>
                             <option value="0.19">CZK</option>
