@@ -1,5 +1,14 @@
-# Kalkulator walutowy
+# Currencyconventer
 
-- languages **Pl**
+## You can choose:
 
-### Demo: [Click here](https://ziko225.github.io/currencyconventer/)
+- USD
+- EUR
+- CZK
+- GBP
+- CHF
+- PLN
+# Demo page:
+https://ziko225.github.io/currencyconventer/
+
+![page](img/image.jpg)

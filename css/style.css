@@ -8,14 +8,14 @@ html {
 }
 
 .body {
-    background-image: url(img/money.jpg);
+    background-image: url(../img/background.jpg);
     background-size: 190vmax;
     background-repeat: no-repeat;
     height: auto;
 }
 
 .article {
-    background-image: url(img/fon.png);
+    background-image: url(../img/article-background.png);
     background-size: 100%;
     margin: 10px auto;
     text-align: center;
@@ -33,24 +33,23 @@ html {
     text-align: center;
     vertical-align: middle;
     max-width: 180px;
-    border-width: 0.2px;
+    border-width: 0.1px;
     border-radius: 5px;
-    height: 100%;
+    height: 91%;
+    margin-right: -4px;
     border-radius: 20px 0px 0px 20px;
 }
 
 .form__select {
+    border-width: 1px;
     background-color: white;
     vertical-align: middle;
-    border-width: 0.2px;
-    height: calc(100% + 4px);
-    ;
-    margin-left: -5px;
-    border-radius: 2px 20px 20px 2px;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .form__paragraf {
-    height: 35px
+    height: 40px
 }
 
 .form__select--backgroundColorGrey {
